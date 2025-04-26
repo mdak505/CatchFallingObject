@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Catch the Falling Objects</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Catch the Falling Objects 🎯</h1>
+    <div id="scoreBoard">
+        <span id="scoreDisplay">Score: 0</span>
+        <span id="missesDisplay">Misses: 0</span>
+    </div>
+    <div id="buttons">
+        <button id="startButton">Start</button>
+        <button id="stopButton">Stop</button>
+    </div>
+    <div id="gameArea">
+        <div id="catcher"></div>
+    </div>
+    <div id="gameOverMessage" class="hidden">Game Over! Press Start to play again.</div>
+
+    <audio id="catchSound" src="catch.mp3" preload="auto"></audio>
+    <audio id="missSound" src="miss.mp3" preload="auto"></audio>
+
+    <script src="script.js" defer></script>
+</body>
+</html>

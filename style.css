@@ -1,0 +1,53 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+}
+
+#scoreBoard {
+    margin: 10px;
+    font-size: 20px;
+}
+
+#buttons {
+    margin: 10px;
+}
+
+#gameArea {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    margin: 20px auto;
+    border: 2px solid #333;
+    background-color: #e0ffe0;
+    overflow: hidden;
+}
+
+#catcher {
+    width: 100px;
+    height: 20px;
+    background-color: #ff5733;
+    position: absolute;
+    bottom: 0;
+    left: 250px;
+    border-radius: 10px;
+}
+
+.object {
+    width: 30px;
+    height: 30px;
+    background-color: #007bff;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+#gameOverMessage {
+    font-size: 24px;
+    color: red;
+    margin-top: 20px;
+}
